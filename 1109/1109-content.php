@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="row">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="swiper-slide"  data-swiper-autoplay="2000">
                         <div class="slide">
                             <ul>
                                 <li class="img-slide pic1" stt="0">
@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
 
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-swiper-autoplay="2000">
                         <div class="slide">
                             <ul>
                                 <li class="img-slide pic1" stt="1">
@@ -45,10 +45,9 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
             </div>
         </div>
     </div>
