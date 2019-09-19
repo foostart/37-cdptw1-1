@@ -53,4 +53,3 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
-</html>
