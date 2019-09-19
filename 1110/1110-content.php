@@ -29,21 +29,40 @@ $url_path = str_replace('\\', '/', $url_path);
             <!-- Phan video -->
             <div class="vc-row">
                 <div class="container">
-                    <div class="video-box col-md-6 col-sm-6">
+                    <div class="row">
+                        <div class="video-box col-md-6 col-sm-6">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <iframe width="540" height="311" src="https://www.youtube.com/embed/1rzKJOJMAaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
 
-                        <iframe src="https://player.vimeo.com/video/59035269" width="625" height="400" frameborder="0" title="Factory Visit to NITTO" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-                    </div>
+                                    <div class="swiper-slide">
+                                        <iframe width="540" height="311" src="https://www.youtube.com/embed/qn2FI7yWe-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
 
-                    <div class="col-md-6 col-sm-6">
-                        <div class="top">
-                            <div class="box-icon">
-                                <i class="fa fa-book"></i>
+                                    <div class="swiper-slide">
+                                        <iframe width="540" height="311" src="https://www.youtube.com/embed/RFXbWTZ53tQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
                             </div>
-                            <h3 class="box-title">Ethical Management</h3>
-                            <p>Business ethics has normative and descriptive dimensions. As a corporate practice and a career specialization, the field is primarily normative. Academics attempting to understand business behavior employ descriptive methods. The range and quantity of business ethical issues reflects the interaction of profit-maximizing behavior with non-economic concerns.</p>
-                            <p>Interest in business ethics accelerated dramatically during the 1980s and 1990s, both within major corporations and within academia. For example, most major corporations today promote their commitment to non-economic values under headings. </p>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="top">
+                                <div class="box-icon">
+                                    <i class="fa fa-book"></i>
+                                </div>
+                                <h3 class="box-title">Ethical Management</h3>
+                                <p>Business ethics has normative and descriptive dimensions. As a corporate practice and a career specialization, the field is primarily normative. Academics attempting to understand business behavior employ descriptive methods. The range and quantity of business ethical issues reflects the interaction of profit-maximizing behavior with non-economic concerns.</p>
+                                <p>Interest in business ethics accelerated dramatically during the 1980s and 1990s, both within major corporations and within academia. For example, most major corporations today promote their commitment to non-economic values under headings. </p>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
             <!--/Ket thuc phan "video"-->
