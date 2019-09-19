@@ -14,6 +14,7 @@
     @swiper_35per = 35%;
     @swiper_30per = 30%;
     @swiper_25per = 25%;
+    @color_hover = #6a99e6;
 
     .swiper-pagination {
         position: absolute;
@@ -28,12 +29,24 @@
         position: absolute;
         top: 45%;
         margin: 0;
+        &:hover {
+            border: none;
+            background-color: @color_hover;
+            transition: all 0.5s ease;
+            text-decoration: none;
+        }
     }
 
     .swiper-button-prev {
         position: absolute;
         top: 45%;
         margin: 0;
+        &:hover {
+            border: none;
+            background-color: @color_hover;
+            transition: all 0.5s ease;
+            text-decoration: none;
+        }
     }
 
     .swiper-container {
