@@ -13,21 +13,21 @@
     .swiper-container {
       width: 100%;
       height: 100%;
+  }
+
+  .slide{
+    img {
+        width: 100%;
+        height: 100%;
     }
-    
-    .slide{
-        img {
-            width: 100%;
-            height: 100%;
-        }
-        ul{
-            list-style: none;
-            margin: 0;
-            padding:0;
-        }
-        a, a:focus, a:hover{
-            text-decoration: none;
-        }
+    ul{
+        list-style: none;
+        margin: 0;
+        padding:0;
+    }
+    a, a:focus, a:hover{
+        text-decoration: none;
+    }
         // font-family: myfont;
         font-weight: bold;
         height: 700px;
@@ -39,8 +39,8 @@
             top:0;
             width: 100%;
             height: 700px;
-            filter: blur(2px);
-            -webkit-filter: blur(2px);
+            filter: blur(4px);
+            -webkit-filter: blur(4px);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -112,39 +112,13 @@
         //     display: none;
         //     font-size:15px;
         // }
-        
-        // .btn-slide{
-        //     position: absolute;
-        //     right: 0;
-        //     bottom: 0;
-        //     z-index: 4;
-        //     .fa{
-        //         cursor: pointer;
-        //         color: #FFF;
-        //         text-align: center;
-        //         font-size: 26px;
-        //         background: rgba(0,0,0,0.7);
-        //         padding: 10px 15px;
-        //         width: 50px;
-        //     }
-        //     .fa-angle-left{
-        //         margin-right: -4px;
-        //     }
-        //     .fa:hover{
-        //         background: rgba(0,0,0,1);
-        //     }
-        // }
-        // .time-banner{
-        //     height:5px;
-        //     background-color: rgb(166, 216, 236);
-        //     z-index: 5;
-        //     position: absolute;
-        //     bottom:0;
-        // }
     }
 
     @media (max-width:@md-1024)and (min-width:@sm-768)
     {
+        .swiper-pagination-bullets {
+            top: 70%;
+        }
         .slide{
             height: 600px;
             ul{
@@ -181,6 +155,9 @@
     }
     @media (max-width:@sm-827)and (min-width:@xs-242)
     {
+        .swiper-pagination-bullets {
+            top: 70%;
+        }
         .slide{
             height: 600px;
             ul{
@@ -220,6 +197,9 @@
     }
     @media (max-width:@sm-720)and (min-width:@xs-242)
     {
+        .swiper-pagination-bullets {
+            top: 70%;
+        }
         .slide{
             height: 600px;
             ul{
@@ -256,13 +236,8 @@
     }
     @media (max-width:@xs-595)and (min-width:@xs-242)
     {
-        .btn-slide {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            z-index: 4;
-            margin-left:20px;
-            top:550px;
+        .swiper-pagination-bullets {
+            top: 70%;
         }
         .slide{
             height: 600px;
@@ -303,13 +278,8 @@
     }
     @media (max-width:@xs-446)and (min-width:@xs-242)
     {
-        .btn-slide {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            z-index: 4;
-            margin-left:20px;
-            top:380px;
+        .swiper-pagination-bullets {
+            top: 70%;
         }
         .slide{
             height: 600px;
@@ -350,13 +320,8 @@
     }
     @media (max-width:@xs-387)and (min-width:@xs-150)
     {
-        .btn-slide {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            z-index: 4;
-            margin-left:20px;
-            top:380px;
+        .swiper-pagination-bullets {
+            top: 70%;
         }
         .slide{
             height: 600px;
@@ -397,13 +362,8 @@
     }
     @media (max-width:@xs-320)and (min-width:@xs-150)
     {
-        .btn-slide {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            z-index: 4;
-            margin-left:20px;
-            top:254px;
+        .swiper-pagination-bullets {
+            top: 70%;
         }
         .slide{
             height: 600px;

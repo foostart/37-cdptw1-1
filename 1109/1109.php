@@ -27,7 +27,6 @@ $less->compileFile('less/1109.less', 'css/1109.css');
         <link href="css/1109.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <!-- <script src="js/slideshow-main-js.js" type="text/javascript"></script> -->
         
         <link rel="stylesheet" href="css/swiper.min.css">
         <script src="js/swiper.min.js" type="text/javascript"></script>

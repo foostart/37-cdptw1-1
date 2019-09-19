@@ -46,12 +46,14 @@ $url_path = str_replace('\\', '/', $url_path);
                     </div>
                 </div>
 
-                <div class="btn-slide">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="btn-slide">
                     <div class="swiper-pagination"></div>
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
-                </div>
-                <div class="time-banner"></div>
+                </div> -->
             </div>
             <!-- <div class="row">
                 <div class="slide">
