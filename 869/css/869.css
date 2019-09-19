@@ -25,6 +25,9 @@
 }
 .type-869 .register .nav-tabs .nav-link:hover {
   border: none;
+  background-color: #6a99e6;
+  transition: all 0.5s ease;
+  text-decoration: none;
 }
 .type-869 .register .nav-tabs .nav-link.active {
   width: 100px;
@@ -66,7 +69,7 @@
   animation: mover 1s infinite alternate;
 }
 .type-869 .register-left .btn-login {
-  color: #000000;
+  display: inline-block;
   background-color: #fff;
   border: none;
   border-radius: 1.5rem;
@@ -76,6 +79,11 @@
   cursor: pointer;
   margin-top: 10%;
   margin-bottom: 3%;
+}
+.type-869 .register-left .btn-login:hover {
+  background-color: #d8d8d8;
+  transition: all 0.5s ease;
+  text-decoration: none;
 }
 .type-869 .register-right {
   background: #f8f9fa;
@@ -94,6 +102,11 @@
   width: 50%;
   cursor: pointer;
 }
+.type-869 .register-right .btn-reigster-employee:hover {
+  background-color: #6a99e6;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
 .type-869 .register-right .btn-register-hirer {
   float: right;
   margin-top: 10%;
@@ -105,6 +118,11 @@
   font-weight: 600;
   width: 50%;
   cursor: pointer;
+}
+.type-869 .register-right .btn-register-hirer:hover {
+  background-color: #6a99e6;
+  transition: all 0.5s ease;
+  text-decoration: none;
 }
 .type-869 .register-heading {
   text-align: center;
