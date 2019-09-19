@@ -13,34 +13,29 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/1109.less', 'css/1109.css');
+$less->compileFile('less/869.less', 'css/869.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>1109</title>
+        <title>869</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="<?php echo $url_path ?>/css/869.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/1109.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        
-        <link rel="stylesheet" href="css/swiper.min.css">
-        <script src="js/swiper.min.js" type="text/javascript"></script>
 
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/1109.less', 'css/1109.css');
+        $less->compileFile('less/869.less', 'css/869.css');
         ?>
     </head>
-    <body>
-        <?php include '../1109/1109-content.php'; ?>
-        <script src="js/1109.js" type="text/javascript"></script>
+    <body >
+        <?php include '../869/869-content.php'; ?>
     </body>
 </html>
