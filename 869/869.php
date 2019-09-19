@@ -23,9 +23,9 @@ $less->compileFile('less/869.less', 'css/869.css');
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="<?php echo $url_path ?>/css/869.css" rel="stylesheet" type="text/css" />
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
         <?php
         if (!class_exists('lessc')) {
