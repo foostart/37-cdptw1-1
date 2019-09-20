@@ -34,15 +34,15 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="swiper-container">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <iframe width="540" height="311" src="https://www.youtube.com/embed/1rzKJOJMAaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe src="https://www.youtube.com/embed/1rzKJOJMAaw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
 
                                     <div class="swiper-slide">
-                                        <iframe width="540" height="311" src="https://www.youtube.com/embed/qn2FI7yWe-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe src="https://www.youtube.com/embed/qn2FI7yWe-Q" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
 
                                     <div class="swiper-slide">
-                                        <iframe width="540" height="311" src="https://www.youtube.com/embed/RFXbWTZ53tQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe src="https://www.youtube.com/embed/RFXbWTZ53tQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
                                 <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
