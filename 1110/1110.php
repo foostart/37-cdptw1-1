@@ -36,14 +36,6 @@ $less->compileFile('less/1110.less', 'css/1110.css');
 
     <link rel="stylesheet" href="css/swiper.min.css">
     <script src="js/swiper.min.js"></script>
-
-    <?php
-    if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
-    }
-    $less = new lessc;
-    $less->compileFile('less/1110.less', 'css/1110.css');
-    ?>
 </head>
 <body>
     <?php include '../1110/1110-content.php'; ?>
