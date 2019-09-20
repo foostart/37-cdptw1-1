@@ -1,26 +1,11 @@
 .type-1109 .swiper-pagination {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  width: auto !important;
-  left: auto !important;
-  margin: 0;
-}
-.type-1109 .swiper-button-next {
-  position: absolute;
-  top: 45%;
-  margin: 0;
+  position: relative;
 }
 .type-1109 .swiper-button-next:hover {
   border: none;
   background-color: #6a99e6;
   transition: all 0.5s ease;
   text-decoration: none;
-}
-.type-1109 .swiper-button-prev {
-  position: absolute;
-  top: 45%;
-  margin: 0;
 }
 .type-1109 .swiper-button-prev:hover {
   border: none;
@@ -128,28 +113,16 @@
   color: #000000;
 }
 @media (max-width: 1024px) and (min-width: 768px) {
-  .type-1109 .swiper-pagination {
-    top: 40%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 35%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 35%;
-  }
   .type-1109 .slide {
     height: 600px;
   }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul .mini-title {
+  .type-1109 .slide .mini-title {
     left: 5% !important;
     top: 13% !important;
     color: #a8d8ee;
-    font-size: 15px;
+    font-size: 18px;
   }
-  .type-1109 .slide ul .text-slide {
+  .type-1109 .slide .text-slide {
     left: 5%;
     top: 15%;
     font-size: 60px;
@@ -157,44 +130,32 @@
     max-width: 60%;
     line-height: 30px;
   }
-  .type-1109 .slide ul .read-more {
+  .type-1109 .slide .read-more {
     line-height: 25px;
-    font-size: 16px;
-    left: 5%;
-    top: 45%;
+    font-size: 14px;
+    left: 20%;
+    top: 48%;
     margin-top: 0px;
   }
-  .type-1109 .slide ul .img-slide {
+  .type-1109 .slide .img-slide {
     height: 400px !important;
     width: 100% !important;
   }
 }
 @media (max-width: 827px) and (min-width: 242px) {
-  .type-1109 .swiper-pagination {
-    top: 40%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 35%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 35%;
-  }
   .type-1109 .slide {
     height: 600px;
   }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul h1 {
+  .type-1109 .slide h1 {
     font-size: 33px;
   }
-  .type-1109 .slide ul .mini-title {
+  .type-1109 .slide .mini-title {
     left: 5% !important;
     top: 13% !important;
     color: #a8d8ee;
-    font-size: 12px;
+    font-size: 18px;
   }
-  .type-1109 .slide ul .text-slide {
+  .type-1109 .slide .text-slide {
     left: 5%;
     top: 15%;
     font-size: 5px;
@@ -202,41 +163,29 @@
     max-width: 60%;
     line-height: 10px;
   }
-  .type-1109 .slide ul .read-more {
+  .type-1109 .slide .read-more {
     line-height: 25px;
-    font-size: 16px;
-    left: 5%;
-    top: 40%;
+    font-size: 14px;
+    left: 20%;
+    top: 48%;
     margin-top: 0px;
   }
-  .type-1109 .slide ul .img-slide {
+  .type-1109 .slide .img-slide {
     height: 400px !important;
     width: 100% !important;
   }
 }
 @media (max-width: 720px) and (min-width: 242px) {
-  .type-1109 .swiper-pagination {
-    top: 40%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 35%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 35%;
-  }
   .type-1109 .slide {
     height: 600px;
   }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul .mini-title {
+  .type-1109 .slide .mini-title {
     left: 5% !important;
     top: 20% !important;
     color: #a8d8ee;
-    font-size: 12px;
+    font-size: 18px;
   }
-  .type-1109 .slide ul .text-slide {
+  .type-1109 .slide .text-slide {
     left: 5%;
     top: 20%;
     font-size: 5px;
@@ -244,44 +193,29 @@
     max-width: 60%;
     line-height: 10px;
   }
-  .type-1109 .slide ul .read-more {
+  .type-1109 .slide .read-more {
     line-height: 25px;
-    font-size: 16px;
-    left: 5%;
-    top: 40%;
+    font-size: 14px;
+    left: 20%;
+    top: 48%;
     margin-top: 0px;
   }
-  .type-1109 .slide ul .img-slide {
+  .type-1109 .slide .img-slide {
     height: 400px !important;
     width: 100% !important;
   }
 }
 @media (max-width: 595px) and (min-width: 242px) {
-  .type-1109 .swiper-pagination {
-    top: 40%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 35%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 35%;
-  }
   .type-1109 .slide {
     height: 600px;
   }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul h1 {
-    font-size: 24px;
-  }
-  .type-1109 .slide ul .mini-title {
+  .type-1109 .slide .mini-title {
     left: 5% !important;
     top: 13% !important;
     color: #a8d8ee;
-    font-size: 12px;
+    font-size: 18px;
   }
-  .type-1109 .slide ul .text-slide {
+  .type-1109 .slide .text-slide {
     left: 5%;
     top: 15%;
     font-size: 5px;
@@ -289,149 +223,72 @@
     max-width: 60%;
     line-height: 10px;
   }
-  .type-1109 .slide ul .read-more {
+  .type-1109 .slide .read-more {
     line-height: 25px;
     font-size: 14px;
-    left: 5%;
-    top: 35%;
+    left: 20%;
+    top: 40%;
     margin-top: 0px;
   }
-  .type-1109 .slide ul .img-slide {
+  .type-1109 .slide .img-slide {
     height: 400px !important;
     width: 100% !important;
   }
 }
 @media (max-width: 446px) and (min-width: 242px) {
-  .type-1109 .swiper-pagination {
-    top: 40%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 35%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 35%;
-  }
   .type-1109 .slide {
     height: 600px;
   }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul h1 {
-    font-size: 21px;
-  }
-  .type-1109 .slide ul .mini-title {
+  .type-1109 .slide .mini-title {
     left: 5% !important;
-    top: 13% !important;
+    top: 8% !important;
     color: #a8d8ee;
-    font-size: 12px;
+    font-size: 18px;
   }
-  .type-1109 .slide ul .text-slide {
-    left: 5%;
-    top: 15%;
-    font-size: 5px;
-    min-width: 60%;
-    max-width: 60%;
+  .type-1109 .slide .text-slide {
+    top: 10%;
+    font-size: 1px;
+    min-width: 90%;
+    max-width: 90%;
     line-height: 10px;
   }
-  .type-1109 .slide ul .read-more {
+  .type-1109 .slide .read-more {
     line-height: 25px;
     font-size: 14px;
-    left: 5%;
-    top: 30%;
+    left: 30%;
+    top: 40%;
     margin-top: 0px;
   }
-  .type-1109 .slide ul .img-slide {
+  .type-1109 .slide .img-slide {
     height: 400px !important;
     width: 100% !important;
   }
 }
 @media (max-width: 387px) and (min-width: 150px) {
-  .type-1109 .swiper-pagination {
-    top: 30%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 25%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 25%;
-  }
   .type-1109 .slide {
     height: 600px;
   }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul h1 {
-    font-size: 18px;
-  }
-  .type-1109 .slide ul .mini-title {
-    left: 5% !important;
-    top: 13% !important;
-    color: #a8d8ee;
-    font-size: 12px;
-  }
-  .type-1109 .slide ul .text-slide {
-    left: 5%;
-    top: 15%;
-    font-size: 5px;
-    min-width: 60%;
-    max-width: 60%;
-    line-height: 10px;
-  }
-  .type-1109 .slide ul .read-more {
-    line-height: 25px;
-    font-size: 14px;
-    left: 5%;
-    top: 30%;
-    margin-top: 0px;
-  }
-  .type-1109 .slide ul .img-slide {
-    height: 300px !important;
-    width: 100% !important;
-  }
-}
-@media (max-width: 320px) and (min-width: 150px) {
-  .type-1109 .swiper-pagination {
-    top: 30%;
-  }
-  .type-1109 .swiper-button-next {
-    top: 25%;
-  }
-  .type-1109 .swiper-button-prev {
-    top: 25%;
-  }
-  .type-1109 .slide {
-    height: 600px;
-  }
-  .type-1109 .slide ul li {
-    height: 500px;
-  }
-  .type-1109 .slide ul h1 {
-    font-size: 15px;
-  }
-  .type-1109 .slide ul .mini-title {
+  .type-1109 .slide .mini-title {
     left: 5% !important;
     top: 8% !important;
     color: #a8d8ee;
-    font-size: 8px;
+    font-size: 18px;
   }
-  .type-1109 .slide ul .text-slide {
-    left: 5%;
+  .type-1109 .slide .text-slide {
     top: 10%;
-    font-size: 5px;
-    min-width: 60%;
-    max-width: 60%;
+    font-size: 1px;
+    min-width: 90%;
+    max-width: 90%;
     line-height: 10px;
   }
-  .type-1109 .slide ul .read-more {
+  .type-1109 .slide .read-more {
     line-height: 25px;
     font-size: 14px;
-    left: 5%;
-    top: 23%;
+    left: 30%;
+    top: 40%;
     margin-top: 0px;
   }
-  .type-1109 .slide ul .img-slide {
+  .type-1109 .slide .slide ul .img-slide {
     height: 300px !important;
     width: 100% !important;
   }

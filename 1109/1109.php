@@ -15,6 +15,7 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/1109.less', 'css/1109.css');
 ?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>1109</title>
@@ -24,11 +25,11 @@ $less->compileFile('less/1109.less', 'css/1109.css');
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/1109.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         
         <link rel="stylesheet" href="css/swiper.min.css">
-        <script src="js/swiper.min.js" type="text/javascript"></script>
+        <script src="js/swiper.min.js"></script>
 
         <?php
         if (!class_exists('lessc')) {
@@ -40,6 +41,6 @@ $less->compileFile('less/1109.less', 'css/1109.css');
     </head>
     <body>
         <?php include '../1109/1109-content.php'; ?>
-        <script src="js/1109.js" type="text/javascript"></script>
+        <script src="js/1109.js"></script>
     </body>
 </html>

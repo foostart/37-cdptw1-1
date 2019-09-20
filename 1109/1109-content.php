@@ -18,29 +18,29 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="swiper-wrapper">
                     <div class="swiper-slide"  data-swiper-autoplay="2000">
                         <div class="slide">
-                            <ul>
-                                <li class="img-slide pic1" stt="0">
+                            <!-- <ul> -->
+                                <div class="img-slide pic1">
                                     <img src="images/slider-2.jpg" alt=""/>
                                     <div class="bg"></div>
-                                </li>
+                                </div>
                                 <div class="mini-title text0 text-sub">THE ULTIMATE GOAL</div>
                                 <div class="text-slide text0 text-sub"><h1>We are manufacturing products with world class quality.</h1></div>
                                 <div class="read-more text0 text-sub">READ MORE</div>
-                            </ul>
+                            <!-- </ul> -->
                         </div>
                     </div>
 
                     <div class="swiper-slide" data-swiper-autoplay="2000">
                         <div class="slide">
-                            <ul>
-                                <li class="img-slide pic1" stt="1">
+                            <!-- <ul> -->
+                                <div class="img-slide pic1">
                                     <img src="images/slider-3.jpg" alt=""/>
                                     <div class="bg"></div>
-                                </li>
+                                </div>
                                 <div class="mini-title text0 textt-sub">THE ULTIMATE GOAL</div>
                                 <div class="text-slide text0 text-sub"><h1>Supplying the world with high quality chemical products.</h1></div>
                                 <div class="read-more text0 text-sub">READ MORE</div>
-                            </ul>
+                            <!-- </ul> -->
                         </div>
                     </div>
                 </div>
