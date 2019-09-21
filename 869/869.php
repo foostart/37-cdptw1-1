@@ -15,6 +15,7 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/869.less', 'css/869.css');
 ?>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>869</title>
@@ -23,8 +24,8 @@ $less->compileFile('less/869.less', 'css/869.css');
         
         <link href="<?php echo $url_path ?>/css/869.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
         <?php
         if (!class_exists('lessc')) {
