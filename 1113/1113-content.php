@@ -20,23 +20,23 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <ul>
-                                    <li class="active-li fluid-question-li-1">What do we do?</li>
+                                <!-- <ul> -->
+                                    <div class="active-li fluid-question-li-1">What do we do?</div>
                                     <div class="text-li text-li1">
                                         <p>We believe in building to positively impact communities, infrastructure, the economy, opportunity and employment. We take great pride in being proactive with our approach to projects, while ensuring that the best interests of the stakeholders are represented at every stage.</p>
                                         <p>We are serious about our values. And in the context of those values we can tackle your whole project in a comprehensive customer focused way or a portion thereof.</p>
                                     </div>
-                                </ul>
+                                <!-- </ul> -->
                             </div>
 
                             <div class="swiper-slide">
-                                <ul>
-                                    <li class="active-li fluid-question-li-2">Why do we do it?</li>
+                                <!-- <ul> -->
+                                    <div class="active-li fluid-question-li-1">Why do we do it?</div>
                                     <div class="text-li text-li1">
                                         <p>We are serious about our values. And in the context of those values we can tackle your whole project in a comprehensive customer focused way or a portion thereof.</p>
                                         <p>We believe in building to positively impact communities, infrastructure, the economy, opportunity and employment. We take great pride in being proactive with our approach to projects, while ensuring that the best interests of the stakeholders are represented at every stage.</p>
                                     </div>
-                                </ul>
+                                <!-- </ul> -->
                             </div>
                         </div>
                         <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
