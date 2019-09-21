@@ -11,6 +11,7 @@ $url_path = $url_host . $matches[1][0];
 
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+
 <div class="type-1112">
   <div class="container">
     <div class="row">
@@ -23,6 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
               <hr>
               <h4>Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam doloremque laudantium, totam rem aperiam.</h4>
             </div>
+
             <div class="col-md-8 pic-wpbrow">
              <div class="swiper-container gallery-top">
               <div class="swiper-wrapper">
@@ -52,6 +54,7 @@ $url_path = str_replace('\\', '/', $url_path);
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
