@@ -41,9 +41,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <iframe src="https://www.youtube.com/embed/qn2FI7yWe-Q" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
 
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <iframe src="https://www.youtube.com/embed/RFXbWTZ53tQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
                                 <div class="swiper-button-next"></div>
