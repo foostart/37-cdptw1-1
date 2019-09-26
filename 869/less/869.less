@@ -7,6 +7,18 @@
     @color_register_heading = #495057;
     @color_hover_btn_login = #d8d8d8;
     @color_hover_btn_register = #6a99e6;
+    @font_size_button = 80%;
+    @xs-150 = 150px;
+    @xs-242 = 242px;
+    @xs-320 = 320px;
+    @xs-387 = 387px;
+    @xs-446 = 446px;
+    @xs-595 = 595px;
+    @sm-720 = 720px;
+    @sm-768 = 768px;
+    @sm-827 = 827px;
+    @md-1024 = 1024px;
+    @lg-2560 = 2560px;
     .register{
         background: -webkit-linear-gradient(left, @color_register, @color_register2);
         margin-top: 3%;
@@ -23,6 +35,7 @@
             background: #0062cc;
             border-radius: 1.5rem;
             width: 25%;
+            font-size: @font_size_button;
             float: right;
             .nav-link{
                 padding: 2%;
@@ -90,6 +103,7 @@
             border-radius: 1.5rem;
             padding: 2%;
             font-weight: 600;
+            font-size: @font_size_button;
             width: 60%;
             cursor: pointer;
             margin-top: 10%;
@@ -108,15 +122,17 @@
         border-top-left-radius: 10% 50%;
         border-bottom-left-radius: 10% 50%;
 
-        .btn-reigster-employee{
+        .btn-register-employee{
             float: right;
             margin-top: 10%;
+            margin-right: -26%;
             border: none;
             border-radius: 1.5rem;
             padding: 2%;
             background: @color_active;
             color: #fff;
             font-weight: 600;
+            font-size: @font_size_button;
             width: 50%;
             cursor: pointer;
             &:hover {
@@ -129,6 +145,7 @@
         .btn-register-hirer{
             float: right;
             margin-top: 10%;
+            margin-right: -26%;
             border: none;
             border-radius: 1.5rem;
             padding: 2%;
@@ -136,6 +153,7 @@
             color: #fff;
             font-weight: 600;
             width: 50%;
+            font-size: @font_size_button;
             cursor: pointer;
             &:hover {
                 background-color: @color_hover_btn_register ;
@@ -160,4 +178,93 @@
         0% { transform: translateY(0); }
         100% { transform: translateY(-20px); }
     }
+
+    @media (max-width:@lg-2560)and (min-width:@md-1024)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+        
+    }
+
+    @media (max-width:@md-1024)and (min-width:@sm-768)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+        
+    }
+    @media (max-width:@sm-827)and (min-width:@xs-242)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+    }
+    @media (max-width:@sm-720)and (min-width:@xs-242)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+    }
+    @media (max-width:@xs-595)and (min-width:@xs-242)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+    }
+    @media (max-width:@xs-446)and (min-width:@xs-242)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+    }
+    @media (max-width:@xs-387)and (min-width:@xs-150)
+    {
+        .btn-register-employee{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+
+        .btn-register-hirer{
+            margin-top: 10%;
+            margin-right: auto;
+        }
+    }
+    
 }

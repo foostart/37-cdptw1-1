@@ -104,7 +104,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <!--FIX BUTTON REGISTER-->
                     <!-- <input type="submit" class="btnRegister"  value="Register"/> -->
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn-reigster-employee" data-toggle="modal" data-target="#modal_register_employee">Register</button>
+                    <button type="button" class="btn-register-employee" data-toggle="modal" data-target="#modal_register_employee">Register</button>
 
                     <!-- Modal -->
                     <div class="modal fade" id="modal_register_employee" tabindex="-1" role="dialog" aria-labelledby="modalEmployee" aria-hidden="true">

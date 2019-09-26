@@ -13,6 +13,7 @@
   background: #0062cc;
   border-radius: 1.5rem;
   width: 25%;
+  font-size: 80%;
   float: right;
 }
 .type-869 .register .nav-tabs .nav-link {
@@ -75,6 +76,7 @@
   border-radius: 1.5rem;
   padding: 2%;
   font-weight: 600;
+  font-size: 80%;
   width: 60%;
   cursor: pointer;
   margin-top: 10%;
@@ -90,19 +92,21 @@
   border-top-left-radius: 10% 50%;
   border-bottom-left-radius: 10% 50%;
 }
-.type-869 .register-right .btn-reigster-employee {
+.type-869 .register-right .btn-register-employee {
   float: right;
   margin-top: 10%;
+  margin-right: -26%;
   border: none;
   border-radius: 1.5rem;
   padding: 2%;
   background: #0062cc;
   color: #fff;
   font-weight: 600;
+  font-size: 80%;
   width: 50%;
   cursor: pointer;
 }
-.type-869 .register-right .btn-reigster-employee:hover {
+.type-869 .register-right .btn-register-employee:hover {
   background-color: #6a99e6;
   transition: all 0.5s ease;
   text-decoration: none;
@@ -110,6 +114,7 @@
 .type-869 .register-right .btn-register-hirer {
   float: right;
   margin-top: 10%;
+  margin-right: -26%;
   border: none;
   border-radius: 1.5rem;
   padding: 2%;
@@ -117,6 +122,7 @@
   color: #fff;
   font-weight: 600;
   width: 50%;
+  font-size: 80%;
   cursor: pointer;
 }
 .type-869 .register-right .btn-register-hirer:hover {
@@ -144,5 +150,75 @@
   }
   .type-869 100% {
     transform: translateY(-20px);
+  }
+}
+@media (max-width: 2560px) and (min-width: 1024px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+}
+@media (max-width: 827px) and (min-width: 242px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+}
+@media (max-width: 720px) and (min-width: 242px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+}
+@media (max-width: 595px) and (min-width: 242px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+}
+@media (max-width: 446px) and (min-width: 242px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+}
+@media (max-width: 387px) and (min-width: 150px) {
+  .type-869 .btn-register-employee {
+    margin-top: 10%;
+    margin-right: auto;
+  }
+  .type-869 .btn-register-hirer {
+    margin-top: 10%;
+    margin-right: auto;
   }
 }
