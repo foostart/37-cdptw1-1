@@ -8,17 +8,6 @@
     @color_hover_btn_login = #d8d8d8;
     @color_hover_btn_register = #6a99e6;
     @font_size_button = 80%;
-    @xs-150 = 150px;
-    @xs-242 = 242px;
-    @xs-320 = 320px;
-    @xs-387 = 387px;
-    @xs-446 = 446px;
-    @xs-595 = 595px;
-    @sm-720 = 720px;
-    @sm-768 = 768px;
-    @sm-827 = 827px;
-    @md-1024 = 1024px;
-    @lg-2560 = 2560px;
     .register{
         background: -webkit-linear-gradient(left, @color_register, @color_register2);
         margin-top: 3%;
@@ -34,7 +23,7 @@
             border: none;
             background: #0062cc;
             border-radius: 1.5rem;
-            width: 25%;
+            width: 30%;
             font-size: @font_size_button;
             float: right;
             .nav-link{
@@ -51,7 +40,7 @@
                     text-decoration: none;
                 }
                 &.active{
-                    width: 100px;
+                    width: 110px;
                     color: @color_active;
                     border: 2px solid @color_active;
                     border-top-left-radius: 1.5rem;
@@ -66,34 +55,14 @@
 
         h3 {
             color: #fff;
+            margin-top: 10%;
         }
 
         p{
             font-weight: lighter;
             padding: 12%;
-            margin-top: -9%;
+            margin-top: 10%;
             color: #fff;
-        }
-
-        input{
-            border: none;
-            border-radius: 1.5rem;
-            padding: 2%;
-            width: 60%;
-            background: #f8f9fa;
-            font-weight: bold;
-            color: #383d41;
-            margin-top: 30%;
-            margin-bottom: 3%;
-            cursor: pointer;
-        }
-
-        img {
-            margin-top: 15%;
-            margin-bottom: 5%;
-            width: 25%;
-            -webkit-animation: mover 2s infinite  alternate;
-            animation: mover 1s infinite  alternate;
         }
 
         .btn-login {
@@ -114,7 +83,6 @@
                 text-decoration: none;
             }
         }
-
     }
 
     .register-right{
@@ -123,6 +91,7 @@
         border-bottom-left-radius: 10% 50%;
 
         .btn-register-employee{
+            height: 34px;
             float: right;
             margin-top: 10%;
             margin-right: -26%;
@@ -143,6 +112,7 @@
         }
 
         .btn-register-hirer{
+            height: 34px;
             float: right;
             margin-top: 10%;
             margin-right: -26%;
@@ -152,8 +122,8 @@
             background: @color_active;
             color: #fff;
             font-weight: 600;
-            width: 50%;
             font-size: @font_size_button;
+            width: 50%;
             cursor: pointer;
             &:hover {
                 background-color: @color_hover_btn_register ;
@@ -170,101 +140,168 @@
         color: @color_register_heading;
     }
 
-    @-webkit-keyframes mover {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(-20px); }
-    }
-    @keyframes mover {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(-20px); }
-    }
-
-    @media (max-width:@lg-2560)and (min-width:@md-1024)
+    @media (min-width:2560px) 
     {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
-        }
+        .register-right {
+            .btn-register-employee{
+                margin-right: -210%;
+                width: 100%;
+            }
 
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
+            .btn-register-hirer{
+                margin-right: -210%;
+                width: 100%;
+            }
         }
-        
+        .input-question-1 {
+            .form-control {
+                width: 200%;
+            }
+        }
+        .input-question-2 {
+            .form-control {
+                width: 200%;
+                margin-left: 95%;
+            }
+        }
     }
 
-    @media (max-width:@md-1024)and (min-width:@sm-768)
-    {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
+    /* Màng hình máy tính bảng lớn hoặc máy tính màng hình trung bình */
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .input-question-1 {
+            .form-control {
+                width: 105%;
+            }
         }
-
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
-        }
-        
-    }
-    @media (max-width:@sm-827)and (min-width:@xs-242)
-    {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
-        }
-
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
+        .input-question-2 {
+            .form-control {
+                width: 105%;
+            }
         }
     }
-    @media (max-width:@sm-720)and (min-width:@xs-242)
-    {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
-        }
 
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
+    /* Màng hình máy tính bảng nhỏ hoặc máy tính màng hình nhỏ */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .input-question-1 {
+            .form-control {
+                width: 80%;
+            }
+        }
+        .input-question-2 {
+            .form-control {
+                width: 80%;
+                margin-left: 10%;
+            }
+        }
+        .register-right {
+            .btn-register-employee{
+                margin-right: -25%;
+                width: 90%;
+            }
+
+            .btn-register-hirer{
+                margin-right: -25%;
+                width: 90%;
+            }
+        } 
+
+        .register {
+            .nav-tabs{
+                width: 40%;
+            }
+        }
+        .register-heading{
+            margin-top: 16%;
+            margin-bottom: -16%;
         }
     }
-    @media (max-width:@xs-595)and (min-width:@xs-242)
-    {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
+
+    /* Màng hình máy tính bảng rất nhỏ hoặc điện thoại di động */
+    @media (max-width: 767px) {
+        .register-left{
+            text-align: center;
+            margin-top: 4%;
+            p{
+                margin-top: -10%;
+                margin-bottom: -5%;
+            }
+            .btn-login {
+                margin-top: auto;
+            }
         }
 
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
+        .input-question-1 {
+            .form-control {
+                width: 85%;
+            }
         }
-    }
-    @media (max-width:@xs-446)and (min-width:@xs-242)
-    {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
-        }
-
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
-        }
-    }
-    @media (max-width:@xs-387)and (min-width:@xs-150)
-    {
-        .btn-register-employee{
-            margin-top: 10%;
-            margin-right: auto;
+        .input-question-2 {
+            .form-control {
+                width: 85%;
+            }
         }
 
-        .btn-register-hirer{
-            margin-top: 10%;
-            margin-right: auto;
+        .register-right {
+            .btn-register-employee{
+                margin-right: 10%;
+                width: 90%;
+            }
+
+            .btn-register-hirer{
+                margin-right: 10%;
+                width: 90%;
+            }
+        }
+
+        .register {
+            .nav-tabs{
+                width: 40%;
+                .nav-link{
+                    height: 34px;
+                }
+            }
+        }
+        .register-heading{
+            margin-top: 16%;
+            margin-bottom: -16%;
+        } 
+    }
+
+    /* Điện thoại di động hoặc màng hình cực nhỏ */
+    @media (max-width: 480px) {
+
+        .input-question-1 {
+            .form-control {
+                width: 80%;
+            }
+        }
+        .input-question-2 {
+            .form-control {
+                width: 80%;
+            }
+        }
+        .register-right {
+            .btn-register-employee{
+                margin-right: 10%;
+                width: 90%;
+            }
+
+            .btn-register-hirer{
+                margin-right: 10%;
+                width: 90%;
+            }
+        } 
+        .register {
+            .nav-tabs{
+                width: 60%;
+                .nav-link{
+                    height: 34px;
+                }
+            }
+        }
+        .register-heading{
+            margin-top: 16%;
+            margin-bottom: -16%;
         }
     }
-    
 }

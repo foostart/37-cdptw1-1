@@ -56,7 +56,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
             <h3 class="register-heading">Apply as a Employee</h3>
             <div class="row register-form">
-                <div class="col-md-6">
+                <div class="col-md-6 input-question-1">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="First Name *" value="" />
                     </div>
@@ -82,7 +82,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 input-question-2">
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="Your Email *" value="" />
                     </div>
@@ -133,7 +133,7 @@ $url_path = str_replace('\\', '/', $url_path);
 <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
     <h3  class="register-heading">Apply as a Hirer</h3>
     <div class="row register-form">
-        <div class="col-md-6">
+        <div class="col-md-6 input-question-1">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="First Name *" value="" />
             </div>
@@ -148,7 +148,7 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-6 input-question-2">
             <div class="form-group">
                 <input type="password" class="form-control" placeholder="Password *" value="" />
             </div>

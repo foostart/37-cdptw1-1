@@ -12,7 +12,7 @@
   border: none;
   background: #0062cc;
   border-radius: 1.5rem;
-  width: 25%;
+  width: 30%;
   font-size: 80%;
   float: right;
 }
@@ -31,7 +31,7 @@
   text-decoration: none;
 }
 .type-869 .register .nav-tabs .nav-link.active {
-  width: 100px;
+  width: 110px;
   color: #0062cc;
   border: 2px solid #0062cc;
   border-top-left-radius: 1.5rem;
@@ -43,31 +43,13 @@
 }
 .type-869 .register-left h3 {
   color: #fff;
+  margin-top: 10%;
 }
 .type-869 .register-left p {
   font-weight: lighter;
   padding: 12%;
-  margin-top: -9%;
+  margin-top: 10%;
   color: #fff;
-}
-.type-869 .register-left input {
-  border: none;
-  border-radius: 1.5rem;
-  padding: 2%;
-  width: 60%;
-  background: #f8f9fa;
-  font-weight: bold;
-  color: #383d41;
-  margin-top: 30%;
-  margin-bottom: 3%;
-  cursor: pointer;
-}
-.type-869 .register-left img {
-  margin-top: 15%;
-  margin-bottom: 5%;
-  width: 25%;
-  -webkit-animation: mover 2s infinite alternate;
-  animation: mover 1s infinite alternate;
 }
 .type-869 .register-left .btn-login {
   display: inline-block;
@@ -93,6 +75,7 @@
   border-bottom-left-radius: 10% 50%;
 }
 .type-869 .register-right .btn-register-employee {
+  height: 34px;
   float: right;
   margin-top: 10%;
   margin-right: -26%;
@@ -112,6 +95,7 @@
   text-decoration: none;
 }
 .type-869 .register-right .btn-register-hirer {
+  height: 34px;
   float: right;
   margin-top: 10%;
   margin-right: -26%;
@@ -121,8 +105,8 @@
   background: #0062cc;
   color: #fff;
   font-weight: 600;
-  width: 50%;
   font-size: 80%;
+  width: 50%;
   cursor: pointer;
 }
 .type-869 .register-right .btn-register-hirer:hover {
@@ -136,89 +120,115 @@
   margin-bottom: -15%;
   color: #495057;
 }
-@-webkit-keyframes mover {
-  .type-869 0% {
-    transform: translateY(0);
+@media (min-width: 2560px) {
+  .type-869 .register-right .btn-register-employee {
+    margin-right: -210%;
+    width: 100%;
   }
-  .type-869 100% {
-    transform: translateY(-20px);
+  .type-869 .register-right .btn-register-hirer {
+    margin-right: -210%;
+    width: 100%;
   }
-}
-@keyframes mover {
-  .type-869 0% {
-    transform: translateY(0);
+  .type-869 .input-question-1 .form-control {
+    width: 200%;
   }
-  .type-869 100% {
-    transform: translateY(-20px);
-  }
-}
-@media (max-width: 2560px) and (min-width: 1024px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
-  }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .input-question-2 .form-control {
+    width: 200%;
+    margin-left: 95%;
   }
 }
-@media (max-width: 1024px) and (min-width: 768px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
+@media (min-width: 992px) and (max-width: 1199px) {
+  .type-869 .input-question-1 .form-control {
+    width: 105%;
   }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .input-question-2 .form-control {
+    width: 105%;
   }
 }
-@media (max-width: 827px) and (min-width: 242px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
+@media (min-width: 768px) and (max-width: 991px) {
+  .type-869 .input-question-1 .form-control {
+    width: 80%;
   }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .input-question-2 .form-control {
+    width: 80%;
+    margin-left: 10%;
   }
-}
-@media (max-width: 720px) and (min-width: 242px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .register-right .btn-register-employee {
+    margin-right: -25%;
+    width: 90%;
   }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .register-right .btn-register-hirer {
+    margin-right: -25%;
+    width: 90%;
   }
-}
-@media (max-width: 595px) and (min-width: 242px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .register .nav-tabs {
+    width: 40%;
   }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .register-heading {
+    margin-top: 16%;
+    margin-bottom: -16%;
   }
 }
-@media (max-width: 446px) and (min-width: 242px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
+@media (max-width: 767px) {
+  .type-869 .register-left {
+    text-align: center;
+    margin-top: 4%;
   }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .register-left p {
+    margin-top: -10%;
+    margin-bottom: -5%;
+  }
+  .type-869 .register-left .btn-login {
+    margin-top: auto;
+  }
+  .type-869 .input-question-1 .form-control {
+    width: 85%;
+  }
+  .type-869 .input-question-2 .form-control {
+    width: 85%;
+  }
+  .type-869 .register-right .btn-register-employee {
+    margin-right: 10%;
+    width: 90%;
+  }
+  .type-869 .register-right .btn-register-hirer {
+    margin-right: 10%;
+    width: 90%;
+  }
+  .type-869 .register .nav-tabs {
+    width: 40%;
+  }
+  .type-869 .register .nav-tabs .nav-link {
+    height: 34px;
+  }
+  .type-869 .register-heading {
+    margin-top: 16%;
+    margin-bottom: -16%;
   }
 }
-@media (max-width: 387px) and (min-width: 150px) {
-  .type-869 .btn-register-employee {
-    margin-top: 10%;
-    margin-right: auto;
+@media (max-width: 480px) {
+  .type-869 .input-question-1 .form-control {
+    width: 80%;
   }
-  .type-869 .btn-register-hirer {
-    margin-top: 10%;
-    margin-right: auto;
+  .type-869 .input-question-2 .form-control {
+    width: 80%;
+  }
+  .type-869 .register-right .btn-register-employee {
+    margin-right: 10%;
+    width: 90%;
+  }
+  .type-869 .register-right .btn-register-hirer {
+    margin-right: 10%;
+    width: 90%;
+  }
+  .type-869 .register .nav-tabs {
+    width: 60%;
+  }
+  .type-869 .register .nav-tabs .nav-link {
+    height: 34px;
+  }
+  .type-869 .register-heading {
+    margin-top: 16%;
+    margin-bottom: -16%;
   }
 }
