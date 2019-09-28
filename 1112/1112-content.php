@@ -28,14 +28,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="col-md-8 pic-wpbrow">
              <div class="swiper-container gallery-top">
               <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(images/1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/2.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/3.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/4.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/5.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/6.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/7.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/8.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-01.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-02.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-03.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-04.jpg)"></div>
               </div>
             </div>
             <!-- Add Arrows -->
@@ -43,14 +39,10 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="swiper-button-prev swiper-button-white"></div>
             <div class="swiper-container gallery-thumbs">
               <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(images/1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/2.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/3.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/4.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/5.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/6.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/7.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(images/8.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-01.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-02.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-03.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(images/1112-04.jpg)"></div>
               </div>
             </div>
           </div>

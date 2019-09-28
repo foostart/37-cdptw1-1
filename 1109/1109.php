@@ -23,21 +23,13 @@ $less->compileFile('less/1109.less', 'css/1109.css');
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap-3.3.6.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/1109.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery-2.1.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-3.3.6.min.js"></script>
         
         <link rel="stylesheet" href="css/swiper.min.css">
         <script src="js/swiper.min.js"></script>
-
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/1109.less', 'css/1109.css');
-        ?>
     </head>
     <body>
         <?php include '../1109/1109-content.php'; ?>

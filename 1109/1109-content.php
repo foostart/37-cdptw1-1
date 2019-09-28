@@ -20,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="slide">
                             <!-- <ul> -->
                                 <div class="img-slide pic1">
-                                    <img src="images/slider-2.jpg" alt=""/>
+                                    <img src="images/1109-1.jpg" alt=""/>
                                     <div class="bg"></div>
                                 </div>
                                 <div class="mini-title text0 text-sub">THE ULTIMATE GOAL</div>
@@ -34,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                         <div class="slide">
                             <!-- <ul> -->
                                 <div class="img-slide pic1">
-                                    <img src="images/slider-3.jpg" alt=""/>
+                                    <img src="images/1109-2.jpg" alt=""/>
                                     <div class="bg"></div>
                                 </div>
                                 <div class="mini-title text0 textt-sub">THE ULTIMATE GOAL</div>
